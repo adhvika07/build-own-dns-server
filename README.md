@@ -1,4 +1,4 @@
-# build-own-dns
+# build-own-dns-server
 
 ## Project Overview
 
