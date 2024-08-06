@@ -13,8 +13,9 @@ This is the main script that sets up and runs the DNS server. The key functional
 - **Building DNS Responses**: Constructs DNS response packets based on the query and available records.
 - **Socket Communication**: Listens for DNS queries on a specified port and sends back responses.
 
-### `howcode.org.zone`
-This is a zone file for the domain `howcode.org`. It includes:
+### `educational.local.zone`
+This is an example zone file to test our DNS server. As zone files of public domains are always kept private, noone can have access to them. 
+Thus I created this zone file using a python script in order to test the DNS server and how it works.
 - **SOA Record**: Start of Authority record, containing administrative information about the zone.
 - **NS Records**: Nameserver records, specifying the authoritative DNS servers for the zone.
 - **A Records**: Address records, mapping domain names to IP addresses.
@@ -113,6 +114,11 @@ Zone files are written in JSON format. Here is the structure of a typical zone f
 
 - **buildresponse(data)**:
     Constructs the entire DNS response packet.
+
+
+### `script.py`
+
+This is this python script which i run in order to create my zone file.
 
 #### Main Loop
 
