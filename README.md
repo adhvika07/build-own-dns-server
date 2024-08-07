@@ -139,8 +139,3 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 ## Acknowledgments
 
 - Inspired by various online tutorials and the need to understand DNS server implementation: howcode.org
-
-
----
-
-Feel free to modify and expand this README to fit the specifics of your project and personal preferences.
