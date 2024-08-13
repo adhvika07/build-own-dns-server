@@ -139,3 +139,7 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 ## Acknowledgments
 
 - Inspired by various online tutorials and the need to understand DNS server implementation: howcode.org
+
+## Contact
+
+For questions or feedback, please reach out to [iyeradhvika@gmail.com](mailto:iyeradhvika@gmail.com).
